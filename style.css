@@ -78,16 +78,16 @@ label{
 }
 @media (max-width: 1920px) {
     .main {
-        width: 60%; /* Adjust the width for smaller screens */
+        width: 60%; 
     }
     input{
         padding: 14px 80px;
-        font-size: 16px; /* Adjust font size for mobile screens */
+        font-size: 16px; 
     }
     textarea {
         margin-top: 6px;
         padding: 17px 80px;
-        font-size: 16px; /* Adjust font size for mobile screens */
+        font-size: 16px; 
     }
     label{
         font-weight: bolder;
@@ -101,16 +101,16 @@ label{
     }}
 @media (max-width: 768px) {
     .main {
-        width: 60%; /* Adjust the width for smaller screens */
+        width: 60%; 
     }
     input{
         padding: 15px 40px;
-        font-size: 14px; /* Adjust font size for mobile screens */
+        font-size: 14px; 
     }
     textarea {
         margin-top: 6px;
         padding: 15px 40px;
-        font-size: 14px; /* Adjust font size for mobile screens */
+        font-size: 14px; 
     }
     label{
         font-weight: bolder;
@@ -126,17 +126,17 @@ label{
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
     .main {
-        width: 80%; /* Adjust the width for even smaller screens */
+        width: 80%; 
     }
 
     input{
         padding: 15px 40px;
-        font-size: 14px; /* Adjust font size for mobile screens */
+        font-size: 14px; 
     }
     textarea {
         margin-top: 6px;
         padding: 15px 40px;
-        font-size: 14px; /* Adjust font size for mobile screens */
+        font-size: 14px; 
     }
     label{
         font-weight: bolder;

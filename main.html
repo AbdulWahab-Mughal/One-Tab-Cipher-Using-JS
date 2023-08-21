@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ONE-TAB CIPHER</title>
+  </head>
+  <body>
+    <div class="main">
+        <h1>ONE-TAB CIPHER</h1>
+        <div class="components">
+            <label>Plain Text</label>
+            <input type="text" placeholder="Enter Plain" id="plain">
+            <label>Key Text</label>
+            <input type="text" placeholder="Enter Key" id="key">
+            <label>Cipher Text</label>
+            <textarea type="text" placeholder="Generated Cipher" id="cipher"></textarea>
+            <button id="btn" onclick="OneCipher()">Generate Cipher</button>
+        </div>
+
+    </div>
+  </body>
+  <script src="./oneTimePad.js"></script>
+</html>
